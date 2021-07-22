@@ -1,0 +1,797 @@
+/* CSS Reset */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.part1 {
+    background: url("https://asphalt8modapks.com/pics/gym-interior-images.jpg");
+    /* background:url("https://images.unsplash.com/photo-1577221084712-45b0445d2b00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1543&q=80"); */
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    /* z-index: -1; */
+    /* height: 2000px; */
+}
+
+.part3 {
+    /* background:url("https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"); */
+    background-image: url("muscleman.jpg");
+    background-position: center top;
+}
+
+.our-services {
+    /* background:url("https://images.unsplash.com/photo-1577221084712-45b0445d2b00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1543&q=80"); */
+    background: url("https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+    background-position: center bottom;
+}
+
+/* .part3{
+    background:url("https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+    background-position: right bottom;
+} */
+
+.left {
+    position: absolute;
+    display: inline-block;
+    margin: 20px 0px 0px 20px;
+}
+
+.mid {
+    /* position: absolute; */
+    display: block;
+    margin: auto;
+    text-align: center;
+    /* text-decoration: none; */
+    /* border: 2px solid red; */
+    color: white;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.right {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    display: inline-block;
+    /* border:2px solid green; */
+    color: white;
+}
+
+.logo {
+    height: 40px;
+}
+
+.header {
+    background-color: black;
+    /* margin:0px 0px 30px 0px; */
+    /* position: fixed; */
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+
+.navbar {
+    display: inline-block;
+    margin: auto;
+    margin-top: 32px;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 10px;
+    padding: 2px 5px 2px 5px;
+    margin-right: 10px;
+}
+
+.navbar li a:hover {
+    color: grey;
+    background-color: white;
+}
+
+.navbar li a.active {
+    margin-left: 5px;
+}
+
+#member {
+    margin-left: 4px;
+    /* color: rgb(92, 255, 247); */
+    border: 2px solid rgb(26, 247, 255)
+}
+
+.btn {
+    border-radius: 7px;
+    padding: 2px 5px 2px 5px;
+    font-size: 95%;
+    cursor: pointer;
+    margin-right: 5px;
+    background: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid rgb(52, 255, 238)
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+.box-1 {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+.container {
+    border: 5px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin:40px 40px 40px 20px;
+    /* margin:auto; */
+    width:400px;
+    padding: 60px;
+    border-radius: 15px;
+    opacity: 0.9;
+    background-color: black;
+}
+
+.container-form {
+    font-size: 220%;
+    color: white;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.container-form1 {
+    font-size: 110%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+label {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+.form-grp input {
+    /* text-align: center; */
+    justify-content: center;
+    margin: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 13px;
+    padding: 6px 8px;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 6px;
+    border: 2px solid black;
+}
+
+.submit {
+    display: block;
+    justify-content: center;
+    margin: auto;
+    width: 150px;
+    padding: 5px 0px 5px 0px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(57, 149, 255);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.submit:hover {
+    background-color: rgb(232, 72, 253);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.quote1 {
+    color: white;
+    font-size: 38px;
+    border: 5px solid white;
+    margin:200px 40px 40px 20px;
+    width: 460px;
+    /* position: absolute; */
+    /* position:sticky; */
+    font-family: 'Ubuntu', sans-serif;
+    padding: 60px 20px 30px 20px;
+    border-radius: 20px;
+    height:210px;
+    /* opacity: 15; */
+    background: url("https://images.pexels.com/photos/791763/pexels-photo-791763.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
+}
+
+.hr {
+    height: 5px;
+    color: grey;
+    background-color: grey;
+    border: none;
+}
+
+.serve {
+    text-align: center;
+    color: white;
+    /* color: black; */
+    font-size: 40px;
+    padding-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.service1, .service2, .service3, .service4, .service5 {
+    display: inline-block;
+    border: 4px solid white;
+    margin: 20px 5px;
+    text-align: center;
+    justify-content: center;
+    width: 250px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.all-time-sevice, .equipment, .trainer, .global, .mobile {
+    height: 130px;
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.all-time-sevice {
+    width: 150px;
+}
+
+.trainer {
+    padding-bottom: 10px;
+}
+
+.global {
+    padding-bottom: 10px;
+}
+
+.mobile {
+    width: 170px;
+    /* padding-top: 23px ; */
+    height: 150px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+#headman3, #headman4 {
+    padding-bottom: 25px;
+}
+
+#headman5 {
+    padding-bottom: 21px;
+}
+
+.services {
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#para1, #para2, #para3, #para4, #para5 {
+    padding-top: 6px;
+    font-size: 20px;
+}
+
+.para {
+    padding: 40px 110px 50px 110px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.membership {
+    padding-top: 20px;
+}
+
+.join-membership {
+    border-radius: 10px;
+    color: grey;
+    background-color: white;
+    padding: 5px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    display: block;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 60px;
+    border: none;
+}
+
+.join-membership:hover {
+    background-color: blue;
+    color: white;
+    /* border: none; */
+}
+
+.about-us {
+    margin: auto;
+    justify-content: center;
+}
+
+.membership-head {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px auto 20px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.membership-card1 {
+    border: 5px solid white;
+    display: inline-block;
+    margin: 20px 20px;
+    box-sizing: border-box;
+    /* position: absolute; */
+    height: 455px;
+}
+
+.image1-card {
+    background-color: white;
+    height: 120px;
+    /* border-radius: 5px; */
+    /* margin:auto; */
+    width: 260px;
+    display: inline-block;
+    /* width:10%; */
+    /* border:2px solid white; */
+}
+
+.card1-body {
+    color: white;
+    margin: 7px 0px 0px 0px;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+    /* padding:10px 0px 10px 0px; */
+}
+
+.card1-title {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 4px 0px;
+}
+
+#card1-para ul li {
+    list-style-type: none;
+    margin: 20px 0px 15px 10px;
+}
+
+li {
+    font-family: 'Ubuntu', sans-serif;
+    list-style-type: none;
+    text-align: left;
+}
+
+.join-membership-card {
+    border-radius: 10px;
+    color: blue;
+    background-color: white;
+    padding: 5px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    display: block;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+}
+
+.join-membership-card:hover {
+    background-color: blue;
+    color: white;
+    /* border: none; */
+}
+
+.membership-card2 {
+    display: inline-block;
+    border: 5px solid white;
+    width: 260px;
+    height: 445px;
+    /* margin-left: 120px; */
+    margin: 20px 20px;
+}
+
+.card2-body {
+    color: white;
+    margin: 9px 0px 10px 0px;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#card2-para ul li {
+    list-style-type: none;
+    margin: 4px 0px 10px 10px;
+}
+
+.join-membership-card2 {
+    border-radius: 10px;
+    color: blue;
+    background-color: white;
+    padding: 5px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    display: block;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    /* margin-bottom: 20px; */
+    margin-top: 10px;
+    border: none;
+}
+
+.join-membership-card2:hover {
+    background-color: blue;
+    color: white;
+    /* border: none; */
+}
+
+.membership-card3 {
+    display: inline-block;
+    border: 5px solid white;
+    width: 260px;
+    /* height: 448px;
+    margin-left: 150px; */
+    margin: 20px 20px;
+}
+
+.card3-body {
+    color: white;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#card3-para ul li {
+    list-style-type: none;
+    margin: 4px 0px 0px 10px;
+}
+
+.join-membership-card3 {
+    border-radius: 10px;
+    color: blue;
+    background-color: white;
+    padding: 5px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    display: block;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: none;
+}
+
+.join-membership-card3:hover {
+    background-color: blue;
+    color: white;
+    /* border: none; */
+}
+
+.hr-card {
+    height: 5px solid white;
+    padding: 0px;
+}
+
+.head-about-us {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    padding-top: 60px;
+}
+
+.contact-us {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.head-contact-us {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form-grp1 {
+    justify-content: center;
+    margin: 8px auto;
+    width: 300px;
+}
+
+.form-grp1 input {
+    /* text-align: center; */
+    justify-content: center;
+    margin: 8px auto 8px auto;
+    width: 300px;
+    display: inline-block;
+    border-radius: 13px;
+    padding: 6px 8px;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid black;
+}
+
+
+#gender {
+    width: 320px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid black;
+}
+
+.all-card {
+    justify-content: center;
+    text-align: center;
+    width: auto;
+}
+
+.submit-1 {
+    display: block;
+    justify-content: center;
+    margin: 10px auto 0px auto;
+    width: 150px;
+    padding: 8px 0px 8px 0px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(232, 72, 253);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+.submit-1:hover {
+    background-color: rgb(57, 149, 255);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.img {
+    height: 30px;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 10px 3px 10px 3px;
+}
+
+.footer {
+    height: 90px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.foot {
+    margin: 5px auto 10px auto;
+}
+@media only screen and (max-width:1160px){
+    .box-1{
+        flex-direction: column;
+    }
+    .container{
+        margin:50px auto;
+    }
+    .quote1{
+        margin:0px auto 50px auto;
+    }
+}
+@media only screen and (max-width:10000px) and (min-width:1009px) {
+    .navigationbar{
+        display:none;
+    }
+}
+@media only screen and (max-width:1010px){
+    .header{
+        display: none;
+    }
+    .navbarlist{
+        display: none;
+    }
+    .navigationbar{
+        background-color: rgb(255, 98, 98);
+        display: flex;
+        opacity: 9;
+        height:90px;
+    }
+    .navbarlogo{
+        height: 60px;
+        border-radius: 20px;
+        width:130px;
+        margin-top: 10px;
+        margin-left: 20px
+    }
+    .navbarlist li {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .navbarlist li a{
+        text-decoration: none;
+        list-style: none;
+        color:white;
+    }
+    .hamburger{
+        filter:invert(100%) ;
+        height: 50px;
+        width:50px;
+        display: block;
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+    .boxer2{
+        margin: auto;
+        padding-right: 40px;
+    }
+    .v-class{
+        display:block;
+        margin: auto;
+        margin-top: 100px;
+        align-items: center;
+    }
+    .h-nav{
+        height: 300px;
+    }
+    .hrLine{
+        margin-bottom: 10px;
+    }
+    }
+    @media only screen and (max-width:600px){
+        .container{
+        border-radius: 15px;
+        opacity: 0.9;
+        background-color: black;
+        border: 3px solid white;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 30px auto 20px auto;
+        padding: 20px;
+    }
+    .quote1 {
+        color: white;
+        font-size: 38px;
+        border: 3px solid white;
+        font-family: 'Ubuntu', sans-serif;
+        border-radius: 20px;
+        height:210px;
+        background: url("https://images.pexels.com/photos/791763/pexels-photo-791763.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        font-size:30px;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+        width: auto;;
+        padding: 50px 20px 20px 20px;
+        height:170px;
+    }
+    .quote1Para{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:500px){
+    .container{
+        border-radius: 15px;
+        opacity: 0.9;
+        background-color: black;
+        border: 3px solid white;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 30px auto 20px auto;
+        padding: 20px;
+        font-size: 22px;
+        width:60%;
+    }
+    .container-form {
+        color: white;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        font-size: 18px;
+        text-align: center;
+        width: 80%;
+    }
+
+    .container-form1 {
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    label {
+        color: white;
+        /* font-family: 'Ubuntu', sans-serif; */
+        font-size: 12px;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+    }
+    .form-grp input {
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 60%;
+        display: inline-block;
+        border-radius: 13px;
+        padding: 6px 8px;
+        font-size: 12px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-bottom: 6px;
+        border: 2px solid black;
+    }
+    .label1{
+        padding-right: 23px;
+    }
+    .label2{
+        padding-right: 37px;
+    }
+    .label3{
+        padding-right: 8px;
+    }
+    .label4{
+        padding-right: 17px;
+    }
+    .label5{
+        padding-right: 21px;
+    }
+    .label6{
+        padding-right: 0px;
+    }
+    .submit {
+        display: block;
+        margin: 10px auto 0px auto;
+        width: 100px;
+        padding: 5px 0px 5px 0px;
+        border-radius: 10px;
+        border: none;
+        background: rgb(57, 149, 255);
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        justify-content: left;
+        margin-left: 68px;
+    }
+    
+    .submit:hover {
+        background-color: rgb(232, 72, 253);
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .quote1{
+        width: 60%;
+        height: 60%;
+        padding: 20px 5px 20px 5px;
+        margin: 20px auto;
+        background-position: center center;
+    }
+    .quote1Para{
+        font-size: 18px;
+        padding: 0px 20px 0px 20px;
+    }
+}
